@@ -137,10 +137,10 @@ else:
     logging.error("No se pudo obtener la lista de tickers.")
 
 # Configuración de la conexión
-server = 'SMCUENTA3\\SQLEXPRESS'
-database = 'Proyecto'
-username = 'splazas'
-password = 'prueba123'
+server = 'Nombre del servidor'
+database = 'Nombre de la base de datos'
+username = 'Nombre del usuario'
+password = 'Password del usuario'
 connection_string = f'mssql+pyodbc://{username}:{password}@{server}/{database}?driver=ODBC+Driver+17+for+SQL+Server'
 engine = create_engine(connection_string)
 

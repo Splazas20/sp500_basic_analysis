@@ -1,0 +1,10 @@
+pandas
+sqlalchemy
+pyodbc
+scikit-learn
+yfinance
+os
+logging
+numpy
+matplotlib
+seaborn
